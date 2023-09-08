@@ -50,8 +50,9 @@ body {
 .description {
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: lighter;
 }
-.buttons {
+.buttons, .buttons2 {
     margin-top: 5px;
     background-color: #3882f6;
     color: white;
@@ -80,7 +81,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .second-heading {
     color: #1f2937;
@@ -112,4 +113,60 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 125px 0px 125px 0px;
+}
+
+.quote {
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.byline {
+    font-weight: bold;
+    margin-left: 500px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.box {
+    background-color: #3882f6;
+    display: flex;
+    gap: 120px;
+    padding: 50px 70px 50px 70px;
+    border-radius: 10px;
+}
+
+.bold-text {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.normal-text {
+    color: #e5e7eb;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.buttons2 {
+    border:  1px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 40px;
+}
+.last-text {
+    color: #F9FAF8;
+    font-weight: lighter;
 }
